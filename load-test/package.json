@@ -1,0 +1,12 @@
+{
+  "name": "rate-limiter-load-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "load-test": "node autocannon.js",
+    "benchmark": "node benchmark.mjs"
+  },
+  "dependencies": {
+    "autocannon": "^8.0.0"
+  }
+}

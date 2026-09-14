@@ -1,0 +1,10 @@
+{
+  "name": "distributed-rate-limiter",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "load-test": "npm --prefix load-test install --silent && node load-test/autocannon.js",
+    "benchmark": "node load-test/benchmark.mjs",
+    "test": "docker compose --profile test run --rm --build tests"
+  }
+}
